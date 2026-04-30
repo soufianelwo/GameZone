@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">GameZone – Jeu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/game-page.css">
+  <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🎮</div>
+        <div class="logo-text">Game<span>Zone</span></div>
+      </a>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">← Tous les jeux</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- GAME LAYOUT -->
+  <div class="game-page-layout">
+
+    <!-- MAIN GAME AREA -->
+    <div class="game-main">
+      <div class="game-title-bar">
+        <h1 id="game-title-h1">Chargement...</h1>
+        <div class="game-title-meta">
+          <span id="game-category-badge" class="gp-badge"></span>
+          <div id="game-stars-bar" class="gp-stars"></div>
+          <span id="game-plays-count" class="gp-plays"></span>
+        </div>
+      </div>
+
+      <!-- AD BANNER TOP (728x90 leaderboard) -->
+      <div class="ad-banner-top">
+        <span class="ad-label">Publicité</span>
+        <!-- 728×90 leaderboard ad here -->
+      </div>
+
+      <!-- IFRAME GAME -->
+      <div class="game-frame-wrap">
+        <iframe
+          id="game-iframe"
+          allowfullscreen
+          allow="fullscreen; autoplay; payment; gamepad"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-top-navigation allow-pointer-lock"
+        ></iframe>
+        <button class="fullscreen-btn" id="fullscreen-btn" title="Plein écran">⛶</button>
+      </div>
+
+      <!-- AD BANNER BOTTOM -->
+      <div class="ad-banner-bottom">
+        <span class="ad-label">Publicité</span>
+        <!-- 728×90 leaderboard ad here -->
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="game-sidebar">
+
+      <section class="sidebar-section">
+        <h2 class="sidebar-title">
+          <span class="sidebar-icon">🎯</span> Vous aimerez aussi
+        </h2>
+        <div class="sidebar-grid" id="you-may-like"></div>
+      </section>
+
+      <!-- AD SQUARE -->
+      <div class="ad-slot ad-sidebar-square">
+        <span class="ad-label">Publicité</span>
+        <!-- 300×250 ad here -->
+      </div>
+
+      <section class="sidebar-section">
+        <h2 class="sidebar-title">
+          <span class="sidebar-icon">🔥</span> Tendances
+        </h2>
+        <div class="sidebar-grid" id="trending"></div>
+      </section>
+
+    </aside>
+
+  </div>
+
+  <script src="js/games.js"></script>
+  <script src="js/game-page.js"></script>
+</body>
+</html>
