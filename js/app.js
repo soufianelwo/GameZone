@@ -85,7 +85,8 @@ function renderGames() {
     `;
     // Open in new tab
     card.addEventListener('click', () => {
-      window.open(`game.html?id=${game.id}`, '_blank');
+      //window.open(`game.html?id=${game.id}`, '_blank');
+      window.location.href = `game.html?id=${game.id}`;
     });
     grid.appendChild(card);
 

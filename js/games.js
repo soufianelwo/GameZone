@@ -5,7 +5,7 @@ const GAMES = [
     rating: 4.8,
     plays: 66962,
     category: "Puzzle",
-    thumb: "https://img.itch.zone/aW1nLzEwMTk4MjUucG5n/315x250%23c/lQ%2BOzX.png",
+    thumb: "images/2048.png",
     iframe: "https://gabrielecirulli.github.io/2048/"
   },
   {
@@ -14,7 +14,7 @@ const GAMES = [
     rating: 4.5,
     plays: 55230,
     category: "Arcade",
-    thumb: "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_bird_nes.jpg",
+    thumb: "images/FlappyBirdClone.png",
     iframe: "https://nebez.github.io/floppybird/"
   },
   {
