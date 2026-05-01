@@ -23,7 +23,7 @@ const GAMES = [
     rating: 4.9,
     plays: 48200,
     category: "Puzzle",
-    thumb: "https://upload.wikimedia.org/wikipedia/en/c/cf/Tetris_NES_cover_art.jpg",
+    thumb: "images/Tetris.png",
     iframe: "https://chvin.github.io/react-tetris/"
   },
   {
@@ -32,7 +32,7 @@ const GAMES = [
     rating: 4.3,
     plays: 39500,
     category: "Arcade",
-    thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Snake_can_be_completed.png/300px-Snake_can_be_completed.png",
+    thumb: "images/SnakeGame.png",
     iframe: "https://playsnake.org/"
   },
   {
@@ -41,7 +41,7 @@ const GAMES = [
     rating: 4.7,
     plays: 72100,
     category: "Arcade",
-    thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/PacMan.png/300px-PacMan.png",
+    thumb: "images/PacMan.png",
     iframe: "https://freepacman.org/"
   },
   {
