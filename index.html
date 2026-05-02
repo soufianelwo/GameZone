@@ -1,115 +1,129 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameZone – Joue gratuitement à des milliers de jeux</title>
-  <meta name="description" content="GameZone : des centaines de jeux HTML5 gratuits à jouer directement dans ton navigateur. Sans téléchargement.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone – Joue gratuitement à des milliers de jeux</title>
+    <meta name="description" content="GameZone : des centaines de jeux HTML5 gratuits à jouer directement dans ton navigateur. Sans téléchargement.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PLXRPZDQ');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 <body>
-
-  <!-- ===== HEADER ===== -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <div class="logo-icon">🎮</div>
-        <div class="logo-text">Game<span>Zone</span></div>
-      </a>
-      <nav class="header-nav">
-        <a href="#" class="nav-link active">Tous les jeux</a>
-        <a href="#" class="nav-link">Action</a>
-        <a href="#" class="nav-link">Puzzle</a>
-        <a href="#" class="nav-link">Course</a>
-        <a href="#" class="nav-link">Multijoueur</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- ===== PAGE LAYOUT WITH AD COLUMNS ===== -->
-  <div class="page-layout" id="games">
-
-    <!-- LEFT AD COLUMN -->
-    <aside class="ad-col ad-left">
-      <div class="ad-slot ad-160x600">
-        <span class="ad-label">Publicité</span>
-        <!-- 160×600 skyscraper ad here -->
-      </div>
-    </aside>
-
-    <!-- CENTER CONTENT -->
-    <div class="center-col">
-
-      <div class="toolbar">
-        <div class="search-wrap">
-          <span class="search-icon">🔍</span>
-          <input type="search" id="search-input" placeholder="Rechercher un jeu…" autocomplete="off">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLXRPZDQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🎮</div>
+                <div class="logo-text">Game<span>Zone</span></div>
+            </a>
+            <nav class="header-nav">
+                <a href="#" class="nav-link active">Tous les jeux</a>
+                <a href="#" class="nav-link">Action</a>
+                <a href="#" class="nav-link">Puzzle</a>
+                <a href="#" class="nav-link">Course</a>
+                <a href="#" class="nav-link">Multijoueur</a>
+            </nav>
         </div>
-        <select id="category-filter" aria-label="Filtrer par catégorie">
-          <option value="">Toutes catégories</option>
-        </select>
-      </div>
+    </header>
 
-      <main class="main">
-        <div class="stats-bar">
-            <p class="stats-info">Jouez gratuitement à plus que <strong id="game-count">0</strong>+ jeux en ligne sur PC, mobile et tablette. De nouveaux jeux vous attendent chaque jour sur GameZone. </p>
-          <p id="page-info"></p>
+    <!-- ===== PAGE LAYOUT WITH AD COLUMNS ===== -->
+    <div class="page-layout" id="games">
+
+        <!-- LEFT AD COLUMN -->
+        <aside class="ad-col ad-left">
+            <div class="ad-slot ad-160x600">
+                <span class="ad-label">Publicité</span>
+                <!-- 160×600 skyscraper ad here -->
+            </div>
+        </aside>
+
+        <!-- CENTER CONTENT -->
+        <div class="center-col">
+
+            <div class="toolbar">
+                <div class="search-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" id="search-input" placeholder="Rechercher un jeu…" autocomplete="off">
+                </div>
+                <select id="category-filter" aria-label="Filtrer par catégorie">
+                    <option value="">Toutes catégories</option>
+                </select>
+            </div>
+
+            <main class="main">
+                <div class="stats-bar">
+                    <p class="stats-info">Jouez gratuitement à plus que <strong id="game-count">0</strong>+ jeux en ligne sur PC, mobile et tablette. De nouveaux jeux vous attendent chaque jour sur GameZone. </p>
+                    <p id="page-info"></p>
+                </div>
+                <div class="games-grid" id="games-grid"></div>
+                <div class="pagination-wrap" id="pagination"></div>
+            </main>
+
         </div>
-        <div class="games-grid" id="games-grid"></div>
-        <div class="pagination-wrap" id="pagination"></div>
-      </main>
+
+        <!-- RIGHT AD COLUMN -->
+        <aside class="ad-col ad-right">
+            <div class="ad-slot ad-160x600">
+                <span class="ad-label">Publicité</span>
+                <!-- 160×600 skyscraper ad here -->
+            </div>
+            <div class="ad-slot ad-160x160" style="margin-top:16px;">
+                <span class="ad-label">Publicité</span>
+                <!-- 160×160 square ad here -->
+            </div>
+        </aside>
 
     </div>
 
-    <!-- RIGHT AD COLUMN -->
-    <aside class="ad-col ad-right">
-      <div class="ad-slot ad-160x600">
-        <span class="ad-label">Publicité</span>
-        <!-- 160×600 skyscraper ad here -->
-      </div>
-      <div class="ad-slot ad-160x160" style="margin-top:16px;">
-        <span class="ad-label">Publicité</span>
-        <!-- 160×160 square ad here -->
-      </div>
-    </aside>
-
-  </div>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <div class="logo">
-          <div class="logo-icon">🎮</div>
-          <div class="logo-text">Game<span>Zone</span></div>
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon">🎮</div>
+                    <div class="logo-text">Game<span>Zone</span></div>
+                </div>
+                <p>GameZone propose des centaines de jeux HTML5 gratuits. Joue instantanément sans téléchargement.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explorer</h4>
+                <a href="#">Tous les jeux</a>
+                <a href="#">Nouveautés</a>
+                <a href="#">Les plus joués</a>
+                <a href="#">Mieux notés</a>
+            </div>
+            <div class="footer-links">
+                <h4>Infos</h4>
+                <a href="#">À propos</a>
+                <a href="#">Confidentialité</a>
+                <a href="#">CGU</a>
+                <a href="#">Contact</a>
+            </div>
         </div>
-        <p>GameZone propose des centaines de jeux HTML5 gratuits. Joue instantanément sans téléchargement.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Explorer</h4>
-        <a href="#">Tous les jeux</a>
-        <a href="#">Nouveautés</a>
-        <a href="#">Les plus joués</a>
-        <a href="#">Mieux notés</a>
-      </div>
-      <div class="footer-links">
-        <h4>Infos</h4>
-        <a href="#">À propos</a>
-        <a href="#">Confidentialité</a>
-        <a href="#">CGU</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>GameZone © 2026. Tous droits réservés.</p>
-      <p>Jeux HTML5 gratuits pour tous.</p>
-    </div>
-  </footer>
+        <div class="footer-bottom">
+            <p>GameZone © 2026. Tous droits réservés.</p>
+            <p>Jeux HTML5 gratuits pour tous.</p>
+        </div>
+    </footer>
 
-  <script src="js/games.js"></script>
-  <script src="js/app.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
