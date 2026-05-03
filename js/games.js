@@ -1,47 +1,41 @@
 const GAMES = [
-  { id:28, title:"Mahjong",                    rating:4.3, plays:25700,  category:"Puzzle",        thumb:"images/Mahjong.png",                      iframe:"https://www.mahjong-game.com/" },
-  { id:5,  title:"Pac-Man",                     rating:4.7, plays:72100,  category:"Arcade",        thumb:"images/PacMan.png",                       iframe:"https://freepacman.org/" },
-  { id:12, title:"Geometry Dash",               rating:4.5, plays:77000,  category:"Arcade",        thumb:"images/GeometryDash.png",                 iframe:"https://geometrydash.io/" },
-  { id:26, title:"Zombs Royale",               rating:4.5, plays:92000,  category:"Battle Royale", thumb:"images/ZombsRoyale.png",                  iframe:"https://zombsroyale.io/" },
-  { id:14, title:"Minecraft Classic",           rating:4.9, plays:210000, category:"Sandbox",       thumb:"images/MinecraftClassic.png",             iframe:"https://classic.minecraft.net/" },
-  { id:17, title:"Slither.io",                 rating:4.4, plays:160000, category:"Multiplayer",   thumb:"images/Slitherio.png",                    iframe:"https://slither.io/" }, 
-  { id:10, title:"Minesweeper",                 rating:4.1, plays:22000,  category:"Puzzle",        thumb:"images/Minesweeper.png",                  iframe:"https://minesweeper.online/" },
-  { id:27, title:"Little Alchemy 2",           rating:4.8, plays:58000,  category:"Puzzle",        thumb:"images/LittleAlchemy2.png",               iframe:"https://littlealchemy2.com/" },   { id:2,  title:"Flappy Bird",                 rating:4.5, plays:55230,  category:"Arcade",        thumb:"images/FlappyBird.png",                   iframe:"https://nebez.github.io/floppybird/" },
-  { id:8,  title:"Sudoku",                      rating:4.4, plays:28400,  category:"Puzzle",        thumb:"images/Sudoku.png",                       iframe:"https://sudoku.com/" }, 
-  { id:3,  title:"Tetris",                      rating:4.9, plays:48200,  category:"Puzzle",        thumb:"images/Tetris.png",                       iframe:"https://chvin.github.io/react-tetris/" },
-  { id:24, title:"Tank Trouble",               rating:4.3, plays:34000,  category:"Action",        thumb:"images/TankTrouble.png",                  iframe:"https://tanktrouble.com/" },
-  { id:11, title:"Cookie Clicker",              rating:4.6, plays:88000,  category:"Idle",          thumb:"images/CookieClicker.png",                iframe:"https://orteil.dashnet.org/cookieclicker/" },
-
-  { id:4,  title:"Snake Game",                  rating:4.3, plays:39500,  category:"Arcade",        thumb:"images/SnakeGame.png",                    iframe:"https://playsnake.org/" },
-  { id:6,  title:"Subway Surfers",              rating:4.7, plays:130000, category:"Runner",        thumb:"images/SubwaySurfers.png",                iframe:"https://poki.com/en/g/subway-surfers" },
-  { id:7,  title:"Chess",                       rating:4.6, plays:33000,  category:"Strategy",      thumb:"images/Chess.png",                        iframe:"https://lichess.org/" },
-  { id:9,  title:"Dino Runner",                 rating:4.2, plays:91000,  category:"Arcade",        thumb:"images/DinoRunner.png",                   iframe:"https://chromedino.com/" },
-  { id:13, title:"Angry Birds",                 rating:4.7, plays:89000,  category:"Puzzle",        thumb:"images/AngryBirds.png",                   iframe:"https://chrome.angrybirds.com/" },
-
-  { id:15, title:"Among Us",                    rating:4.6, plays:155000, category:"Social",        thumb:"images/AmongUs.png",                      iframe:"https://www.crazygames.com/embed/among-us-online-edition" },
-  { id:16, title:"Agar.io",                    rating:4.5, plays:175000, category:"Multiplayer",   thumb:"images/Agario.png",                       iframe:"https://agar.io/" },
- { id:18, title:"Krunker.io",                 rating:4.6, plays:98000,  category:"Shooter",       thumb:"images/Krunkerio.png",                    iframe:"https://krunker.io/" },
-  { id:19, title:"Cut the Rope",               rating:4.6, plays:44300,  category:"Puzzle",        thumb:"images/CutTheRope.png",                   iframe:"https://www.cuttherope.net/" },
-  { id:20, title:"Wordle",                     rating:4.8, plays:120000, category:"Word",           thumb:"images/Wordle.png",                       iframe:"https://www.nytimes.com/games/wordle/index.html" },
-  { id:21, title:"Solitaire",                  rating:4.4, plays:43000,  category:"Card",           thumb:"images/Solitaire.png",                    iframe:"https://www.solitr.com/klondike-solitaire/" },
-  { id:22, title:"Run 3",                      rating:4.8, plays:112000, category:"Runner",        thumb:"images/Run3.png",                         iframe:"https://html5.gamedistribution.com/8e5f8e81b2ad4ca3be01a30b0f1b8d5f/" },
-  { id:23, title:"Stickman Hook",              rating:4.4, plays:42000,  category:"Arcade",        thumb:"images/StickmanHook.png",                 iframe:"https://html5.gamedistribution.com/4bdc8d2498bd44cbaf4bc9c1e5d3e612/" },
-  { id:25, title:"Drift Hunters",              rating:4.7, plays:76000,  category:"Racing",        thumb:"images/DriftHunters.png",                 iframe:"https://drifthunters.io/" },
-
-  { id:29, title:"Space Invaders",             rating:4.5, plays:31200,  category:"Shooter",       thumb:"images/SpaceInvaders.png",                iframe:"https://freeinvaders.org/" },
-  { id:30, title:"Plants vs Zombies",          rating:4.8, plays:61000,  category:"Strategy",      thumb:"images/PlantsVsZombies.png",              iframe:"https://www.agame.com/game/plants-vs-zombies" },
-  { id:31, title:"Happy Wheels",               rating:4.6, plays:88000,  category:"Physics",       thumb:"images/HappyWheels.png",                  iframe:"https://www.totaljerkface.com/happy_wheels.tjf" },
-  { id:32, title:"Crossy Road",                rating:4.7, plays:95000,  category:"Arcade",        thumb:"images/CrossyRoad.png",                   iframe:"https://www.crazygames.com/game/crossy-road" },
-  { id:33, title:"Breakout",                   rating:4.3, plays:16300,  category:"Arcade",        thumb:"images/Breakout.png",                     iframe:"https://elgoog.im/breakout/" },
-  { id:34, title:"Pong",                       rating:4.0, plays:18700,  category:"Sports",        thumb:"images/Pong.png",                         iframe:"https://ponggame.org/" },
-  { id:35, title:"Fruit Ninja",                rating:4.4, plays:52000,  category:"Arcade",        thumb:"images/FruitNinja.png",                   iframe:"https://www.agame.com/game/fruit-ninja" },
-  { id:36, title:"Papa's Pizzeria",            rating:4.5, plays:67000,  category:"Management",    thumb:"images/PapasPizzeria.png",                iframe:"https://www.coolmathgames.com/0-papas-pizzeria" },
-  { id:37, title:"Tower Defense",              rating:4.5, plays:37800,  category:"Strategy",      thumb:"images/TowerDefense.png",                 iframe:"https://btd5.netlify.app/" },
-  { id:38, title:"Moto X3M",                   rating:4.7, plays:76000,  category:"Racing",        thumb:"images/MotoX3M.png",                      iframe:"https://www.crazygames.com/game/moto-x3m" },
-  { id:39, title:"Survivor.io",                rating:4.6, plays:92000,  category:"Action",        thumb:"images/Survivorio.png",                   iframe:"https://www.crazygames.com/game/survivorio" },
-  { id:40, title:"Stick War Legacy",           rating:4.8, plays:58000,  category:"Strategy",      thumb:"images/StickWarLegacy.png",               iframe:"https://www.crazygames.com/game/stick-war-legacy" },
-  { id:1,  title:"2048",                        rating:4.8, plays:66962,  category:"Puzzle",        thumb:"images/2048.png",                        iframe:"https://gabrielecirulli.github.io/2048/" },
+  { id:1, title:"Mahjong",                    rating:4.3, plays:25700,  category:"Puzzle",        thumb:"images/Mahjong.png",                      iframe:"https://www.mahjong-game.com/" },
+  { id:2,  title:"Pac-Man",                     rating:4.7, plays:72100,  category:"Arcade",        thumb:"images/PacMan.png",                       iframe:"https://freepacman.org/" },
+  { id:3, title:"Geometry Dash",               rating:4.5, plays:77000,  category:"Arcade",        thumb:"images/GeometryDash.png",                 iframe:"https://geometrydash.io/" },
+  { id:4, title:"Zombs Royale",               rating:4.5, plays:92000,  category:"Battle Royale", thumb:"images/ZombsRoyale.png",                  iframe:"https://zombsroyale.io/" },
+  { id:5, title:"Minecraft Classic",           rating:4.9, plays:210000, category:"Sandbox",       thumb:"images/MinecraftClassic.png",             iframe:"https://classic.minecraft.net/" },
+  { id:6, title:"Slither.io",                 rating:4.4, plays:160000, category:"Multiplayer",   thumb:"images/Slitherio.png",                    iframe:"https://slither.io/" }, 
+  { id:7, title:"Minesweeper",                 rating:4.1, plays:22000,  category:"Puzzle",        thumb:"images/Minesweeper.png",                  iframe:"https://minesweeper.online/" },
+  { id:8, title:"Little Alchemy 2",           rating:4.8, plays:58000,  category:"Puzzle",        thumb:"images/LittleAlchemy2.png",               iframe:"https://littlealchemy2.com/" },   { id:2,  title:"Flappy Bird",                 rating:4.5, plays:55230,  category:"Arcade",        thumb:"images/FlappyBird.png",                   iframe:"https://nebez.github.io/floppybird/" },
+  { id:9,  title:"Sudoku",                      rating:4.4, plays:28400,  category:"Puzzle",        thumb:"images/Sudoku.png",                       iframe:"https://sudoku.com/" }, 
+  { id:10,  title:"Tetris",                      rating:4.9, plays:48200,  category:"Puzzle",        thumb:"images/Tetris.png",                       iframe:"https://chvin.github.io/react-tetris/" },
+  { id:11, title:"Tank Trouble",               rating:4.3, plays:34000,  category:"Action",        thumb:"images/TankTrouble.png",                  iframe:"https://tanktrouble.com/" },
+  { id:12, title:"Cookie Clicker",              rating:4.6, plays:88000,  category:"Idle",          thumb:"images/CookieClicker.png",                iframe:"https://orteil.dashnet.org/cookieclicker/" }
 ];
 
-const GAMES_PER_PAGE = 12;
+// Assuming GAMES_BATTLEROYALE_1 and GAMES_BATTLEROYALE_2 are defined as arrays of game objects
+
+    const maxLen = Math.max(
+        GAMES_ARCADE_1.length,
+        GAMES_ARCADE_2.length,
+        GAMES_BATTLEROYALE_1.length,
+        GAMES_BATTLEROYALE_2.length,
+        GAMES_PUZZLE_1.length,
+        GAMES_PUZZLE_2.length,
+        GAMES_SANDBOX_1.length,
+        GAMES_SANDBOX_2.length
+    );
+
+    for (let i = 0; i < maxLen; i++) {
+        if (i < GAMES_ARCADE_1.length) GAMES.push(GAMES_ARCADE_1[i]);
+        if (i < GAMES_BATTLEROYALE_1.length) GAMES.push(GAMES_BATTLEROYALE_1[i]);
+        if (i < GAMES_PUZZLE_1.length) GAMES.push(GAMES_PUZZLE_1[i]);
+        if (i < GAMES_SANDBOX_1.length) GAMES.push(GAMES_SANDBOX_1[i]);
+
+        if (i < GAMES_ARCADE_2.length) GAMES.push(GAMES_ARCADE_2[i]);
+        if (i < GAMES_BATTLEROYALE_2.length) GAMES.push(GAMES_BATTLEROYALE_2[i]);
+        if (i < GAMES_PUZZLE_2.length) GAMES.push(GAMES_PUZZLE_2[i]);
+        if (i < GAMES_SANDBOX_2.length) GAMES.push(GAMES_SANDBOX_2[i]);
+    }
+const GAMES_PER_PAGE = 16;
 const TOTAL_PAGES = Math.ceil(GAMES.length / GAMES_PER_PAGE);
