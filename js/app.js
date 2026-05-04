@@ -1,3 +1,31 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Example: get categories from the select#category-filter
+    const categorySelect = document.getElementById('category-filter');
+    const headerNav = document.querySelector('.header-nav');
+    if (!categorySelect || !headerNav) return;
+
+    // Build categories array: first "Tous les jeux", then all options except the first (which is "Toutes catégories")
+    const categories = [{ name: 'Tous les jeux', value: '' }];
+    for (let i = 1; i < categorySelect.options.length; i++) {
+        categories.push({
+            name: categorySelect.options[i].text,
+            value: categorySelect.options[i].value
+        });
+    }
+
+    // Clear existing nav links
+    headerNav.innerHTML = '';
+
+    // Create and append nav links
+    categories.forEach((cat, idx) => {
+        const a = document.createElement('a');
+        // If cat.value is empty, link to all games, else link to category page
+        a.href = cat.value === '' ? 'index.html' : `${cat.value.toLowerCase()}.html`;
+        a.className = 'nav-link' + (idx === 0 ? ' active' : '');
+        a.textContent = cat.name;
+        headerNav.appendChild(a);
+    });
+});
 // --- State ---
 let currentPage = 1;
 

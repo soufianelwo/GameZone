@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone – Puzzle</title>
+    <meta name="description" content="GameZone : jeux Puzzle gratuits à jouer dans ton navigateur. Sans téléchargement.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+</head>
+<body data-category="Puzzle">
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🎮</div>
+                <div class="logo-text">Game<span>Zone</span></div>
+            </a>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">Tous les jeux</a>
+                <a href="action.html" class="nav-link active">Action</a>
+                <a href="arcade.html" class="nav-link">Arcade</a>
+                <a href="battleroyale.html" class="nav-link">Battle Royale</a>
+                <a href="puzzle.html" class="nav-link">Puzzle</a>
+                <a href="sports.html" class="nav-link">Sports</a>
+                <a href="sandbox.html" class="nav-link">Sandbox</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-layout" id="games">
+
+        <aside class="ad-col ad-left">
+            <div class="ad-slot ad-160x600">
+                <span class="ad-label">Publicité</span>
+            </div>
+        </aside>
+
+        <div class="center-col">
+            <div class="toolbar">
+                <div class="search-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" id="search-input" placeholder="Rechercher un jeu Puzzle…" autocomplete="off">
+                </div>
+            </div>
+            <main class="main">
+                <div class="stats-bar">
+                    <p class="stats-info"><strong id="game-count">0</strong> jeux Puzzle disponibles</p>
+                    <p id="page-info"></p>
+                </div>
+                <div class="games-grid" id="games-grid"></div>
+                <div class="pagination-wrap" id="pagination"></div>
+            </main>
+        </div>
+
+        <aside class="ad-col ad-right">
+            <div class="ad-slot ad-160x600">
+                <span class="ad-label">Publicité</span>
+            </div>
+            <div class="ad-slot ad-160x160" style="margin-top:16px;">
+                <span class="ad-label">Publicité</span>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon">🎮</div>
+                    <div class="logo-text">Game<span>Zone</span></div>
+                </div>
+                <p>GameZone propose des centaines de jeux HTML5 gratuits. Joue instantanément sans téléchargement.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explorer</h4>
+                <a href="#">Nouveautés</a>
+                <a href="#">Les plus joués</a>
+                <a href="#">Mieux notés</a>
+            </div>
+            <div class="footer-links">
+                <h4>Infos</h4>
+                <a href="#">À propos</a>
+                <a href="#">Confidentialité</a>
+                <a href="#">CGU</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>GameZone © 2026. Tous droits réservés.</p>
+            <p>Jeux HTML5 gratuits pour tous.</p>
+        </div>
+    </footer>
+
+    <script src="js/category-page.js"></script>
+</body>
+</html>
