@@ -1,5 +1,5 @@
 const GAMES = [
-
+  { "id": 1, "title" : "Mahjong",                    "rating": 4.3,"plays": 25700,  "category": "Puzzle",       "thumb": "images/Mahjong.png",                     "iframe": "https://www.mahjong-game.com/" },
   { "id":2,  "title" :"Pac-Man",                     "rating":4.7, "plays" :72100,  "category":"Arcade",        "thumb":"images/PacMan.png",                       "iframe":"https://freepacman.org/" },
   { "id":3,  "title" :"Geometry Dash",               "rating":4.5, "plays" :77000,  "category":"Arcade",        "thumb":"images/GeometryDash.png",                 "iframe":"https://geometrydash.io/" },
   { "id":4,  "title" :"Zombs Royale",                "rating":4.5, "plays" :92000,  "category":"Battle Royale", "thumb":"images/ZombsRoyale.png",                  "iframe":"https://zombsroyale.io/" },
