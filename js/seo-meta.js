@@ -1300,9 +1300,8 @@ const SEO_GAMES = {
 
   // H1 visible
   const h1 = document.getElementById('game-title-h1');
-  if (h1 && h1.textContent === 'Chargement...') {
-    h1.textContent = meta.h1;
-  }
+  if (h1) h1.textContent = meta.h1;
+  
     const p = document.getElementById('game-description');
     if (p) p.textContent = meta.description;
 })();
