@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     categories.forEach((cat, idx) => {
         const a = document.createElement('a');
         // If cat.value is empty, link to all games, else link to category page
-        a.href = cat.value === '' ? 'index.html' : `${cat.value.toLowerCase()}.html`;
+        a.href = cat.value === '' ? 'index.html' : `${cat.value.toLowerCase().replace(' ', '') }.html`;
         a.className = 'nav-link' + (idx === 0 ? ' active' : '');
         a.textContent = cat.name;
         headerNav.appendChild(a);
