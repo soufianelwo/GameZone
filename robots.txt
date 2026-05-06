@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /.vs/
+
+Sitemap: https://jeuxgratuis.com/sitemap.xml

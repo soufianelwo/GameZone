@@ -554,3 +554,25 @@ a { color: inherit; text-decoration: none; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; text-align: center; }
 }
+.category-intro {
+  padding: 24px 32px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 8px;
+}
+
+.category-intro h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+.category-intro p {
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 780px;
+}

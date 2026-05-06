@@ -29,7 +29,10 @@
             </nav>
         </div>
     </header>
-
+    <div class="category-intro">
+        <h1 id="cat-h1">Jeux Sandbox Gratuits</h1>
+        <p id="cat-intro"></p>
+    </div>
     <div class="page-layout" id="games">
 
         <aside class="ad-col ad-left">
@@ -97,5 +100,13 @@
     </footer>
 
     <script src="js/category-page.js"></script>
+    <script src="js/seo-meta.js"></script>
+    <script>
+        const cat = SEO_CATEGORIES["Sandbox"];
+        if (cat) {
+            document.getElementById('cat-h1').textContent = cat.h1;
+            document.getElementById('cat-intro').textContent = cat.intro;
+        }
+    </script>
 </body>
 </html>
