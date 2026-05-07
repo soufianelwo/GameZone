@@ -1298,6 +1298,54 @@ const SEO_GAMES = {
   }
   desc.setAttribute('content', meta.description);
 
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.setAttribute('rel', 'canonical');
+    document.head.appendChild(canonical);
+  }
+  canonical.setAttribute('href', window.location.pathname + window.location.search);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]') || document.createElement('meta');
+  ogTitle.setAttribute('property', 'og:title');
+  ogTitle.setAttribute('content', meta.title);
+  if (!ogTitle.parentNode) document.head.appendChild(ogTitle);
+
+  const ogDescription = document.querySelector('meta[property="og:description"]') || document.createElement('meta');
+  ogDescription.setAttribute('property', 'og:description');
+  ogDescription.setAttribute('content', meta.description);
+  if (!ogDescription.parentNode) document.head.appendChild(ogDescription);
+
+  const ogUrl = document.querySelector('meta[property="og:url"]') || document.createElement('meta');
+  ogUrl.setAttribute('property', 'og:url');
+  ogUrl.setAttribute('content', window.location.pathname + window.location.search);
+  if (!ogUrl.parentNode) document.head.appendChild(ogUrl);
+
+  const ogImage = document.querySelector('meta[property="og:image"]') || document.createElement('meta');
+  ogImage.setAttribute('property', 'og:image');
+  ogImage.setAttribute('content', '/images/placeholder.svg');
+  if (!ogImage.parentNode) document.head.appendChild(ogImage);
+
+  const twitterCard = document.querySelector('meta[name="twitter:card"]') || document.createElement('meta');
+  twitterCard.setAttribute('name', 'twitter:card');
+  twitterCard.setAttribute('content', 'summary_large_image');
+  if (!twitterCard.parentNode) document.head.appendChild(twitterCard);
+
+  const twitterTitle = document.querySelector('meta[name="twitter:title"]') || document.createElement('meta');
+  twitterTitle.setAttribute('name', 'twitter:title');
+  twitterTitle.setAttribute('content', meta.title);
+  if (!twitterTitle.parentNode) document.head.appendChild(twitterTitle);
+
+  const twitterDescription = document.querySelector('meta[name="twitter:description"]') || document.createElement('meta');
+  twitterDescription.setAttribute('name', 'twitter:description');
+  twitterDescription.setAttribute('content', meta.description);
+  if (!twitterDescription.parentNode) document.head.appendChild(twitterDescription);
+
+  const twitterImage = document.querySelector('meta[name="twitter:image"]') || document.createElement('meta');
+  twitterImage.setAttribute('name', 'twitter:image');
+  twitterImage.setAttribute('content', '/images/placeholder.svg');
+  if (!twitterImage.parentNode) document.head.appendChild(twitterImage);
+
   // H1 visible
   const h1 = document.getElementById('game-title-h1');
   if (h1) h1.textContent = meta.h1;

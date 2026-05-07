@@ -97,7 +97,7 @@ function renderGames() {
     card.className = 'game-card';
     card.innerHTML = `
       <div class="card-thumb">
-        <img src="${game.thumb}" alt="${game.title}" loading="lazy" onerror="this.src='images/placeholder.svg'">
+        <img src="${game.thumb}" alt="${game.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
         <div class="card-overlay">
           <button class="play-btn" aria-label="Jouer à ${game.title}">▶ Jouer</button>
         </div>
@@ -113,8 +113,8 @@ function renderGames() {
     `;
     // Open in new tab
     card.addEventListener('click', () => {
-      //window.open(`game.html?id=${game.id}`, '_blank');
-      window.location.href = `game.html?id=${game.id}`;
+      //window.open(`/game/?id=${game.id}`, '_blank');
+      window.location.href = `/game/?id=${game.id}`;
     });
     grid.appendChild(card);
 

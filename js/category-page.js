@@ -113,7 +113,7 @@
                         '</div>' +
                     '</div>';
                 card.addEventListener('click', function () {
-                    window.location.href = 'game.html?id=' + game.id;
+                    window.location.href = '/game/?id=' + game.id;
                 });
                 grid.appendChild(card);
                 requestAnimationFrame(function () {

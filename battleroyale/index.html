@@ -3,38 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameZone – Arcade</title>
-    <meta name="description" content="GameZone : jeux Arcade gratuits à jouer dans ton navigateur. Sans téléchargement.">
+    <link rel="canonical" href="/battleroyale/">
+    <title>GameZone – Battle Royale</title>
+    <meta name="description" content="GameZone : jeux Battle Royale gratuits à jouer dans ton navigateur. Sans téléchargement.">
+    <meta property="og:title" content="GameZone – Battle Royale">
+    <meta property="og:description" content="GameZone : jeux Battle Royale gratuits à jouer dans ton navigateur. Sans téléchargement.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/battleroyale/">
+    <meta property="og:image" content="/images/placeholder.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GameZone – Battle Royale">
+    <meta name="twitter:description" content="GameZone : jeux Battle Royale gratuits à jouer dans ton navigateur. Sans téléchargement.">
+    <meta name="twitter:image" content="/images/placeholder.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/placeholder.svg" type="image/svg+xml">
 </head>
-<body data-category="Arcade">
+<body data-category="Battle Royale">
 
     <header class="site-header">
         <div class="header-inner">
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
                 <div class="logo-icon">🎮</div>
                 <div class="logo-text">Game<span>Zone</span></div>
             </a>
             <nav class="header-nav">
-                <a href="index.html" class="nav-link">Tous les jeux</a>
-                <a href="action.html" class="nav-link active">Action</a>
-                <a href="arcade.html" class="nav-link">Arcade</a>
-                <a href="battleroyale.html" class="nav-link">Battle Royale</a>
-                <a href="puzzle.html" class="nav-link">Puzzle</a>
-                <a href="sports.html" class="nav-link">Sports</a>
-                <a href="sandbox.html" class="nav-link">Sandbox</a>
+                <a href="/" class="nav-link">Tous les jeux</a>
+                <a href="/action/" class="nav-link">Action</a>
+                <a href="/arcade/" class="nav-link">Arcade</a>
+                <a href="/battleroyale/" class="nav-link active">Battle Royale</a>
+                <a href="/puzzle/" class="nav-link">Puzzle</a>
+                <a href="/sandbox/" class="nav-link">Sandbox</a>
+                <a href="/multiplayer/" class="nav-link">Multiplayer</a>
+                <a href="/idle/" class="nav-link">Idle</a>
+                <a href="/sports/" class="nav-link">Sports</a>
             </nav>
         </div>
     </header>
-
     <div class="category-intro">
-        <h1 id="cat-h1">Jeux Arcade Gratuits</h1>
+        <h1 id="cat-h1">Jeux Battle Royale Gratuits</h1>
         <p id="cat-intro"></p>
     </div>
-
     <div class="page-layout" id="games">
 
         <aside class="ad-col ad-left">
@@ -47,12 +57,12 @@
             <div class="toolbar">
                 <div class="search-wrap">
                     <span class="search-icon">🔍</span>
-                    <input type="search" id="search-input" placeholder="Rechercher un jeu Arcade…" autocomplete="off">
+                    <input type="search" id="search-input" placeholder="Rechercher un jeu Battle Royale…" autocomplete="off">
                 </div>
             </div>
             <main class="main">
                 <div class="stats-bar">
-                    <p class="stats-info"><strong id="game-count">0</strong> jeux Arcade disponibles</p>
+                    <p class="stats-info"><strong id="game-count">0</strong> jeux Battle Royale disponibles</p>
                     <p id="page-info"></p>
                 </div>
                 <div class="games-grid" id="games-grid"></div>
@@ -70,7 +80,6 @@
         </aside>
 
     </div>
-
     <!-- ===== FOOTER ===== -->
     <footer class="site-footer">
         <div class="footer-inner">
@@ -101,10 +110,10 @@
         </div>
     </footer>
 
-    <script src="js/category-page.js"></script>
-    <script src="js/seo-meta.js"></script>
+    <script src="/js/category-page.js"></script>
+    <script src="/js/seo-meta.js"></script>
     <script>
-        const cat = SEO_CATEGORIES["Arcade"];
+        const cat = SEO_CATEGORIES["Battle Royale"];
         if (cat) {
             document.getElementById('cat-h1').textContent = cat.h1;
             document.getElementById('cat-intro').textContent = cat.intro;
