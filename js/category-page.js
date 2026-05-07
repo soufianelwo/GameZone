@@ -8,12 +8,12 @@
     const GAMES_PER_PAGE = 16;
 
     const JS_FILES = [
-        '../js/aa_action_games.js',
-        '../js/aa_arcade_games.js',
-        '../js/aa_battleroyale_games.js',
-        '../js/aa_puzzle_games.js',
-        '../js/aa_sports_games.js',
-        '../js/games.js',
+        '/js/aa_action_games.js',
+        '/js/aa_arcade_games.js',
+        '/js/aa_battleroyale_games.js',
+        '/js/aa_puzzle_games.js',
+        '/js/aa_sports_games.js',
+        '/js/games.js',
     ];
 
     function loadScripts(files, onAllLoaded) {
@@ -40,7 +40,7 @@
         headerNav.innerHTML = '';
         categories.forEach(cat => {
             const a = document.createElement('a');
-            a.href      = cat.value === '' ? 'index.html' : cat.value.toLowerCase().replace(' ', '') + '.html';
+            a.href = cat.value === '' ? '/' : '/' + cat.value.toLowerCase().replace(' ', '') + '/';
             a.className = 'nav-link' + (cat.value === CATEGORY ? ' active' : '');
             a.textContent = cat.name;
             headerNav.appendChild(a);
