@@ -8,7 +8,7 @@
   },
   "assets": {
     "directory": ".",
-    "html_handling": "none"
+    "binding": "ASSETS"
   },
   "compatibility_flags": [
     "nodejs_compat"
