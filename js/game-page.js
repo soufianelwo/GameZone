@@ -49,7 +49,7 @@ function buildSidebarCards(containerId, games) {
   games.forEach(g => {
     const a = document.createElement('a');
     a.className = 'sb-card';
-    a.href = `/game/${slugify(g.title)}`;
+    a.href = `/game/${slugifygame(g.title)}`;
     a.title = g.title;
     a.innerHTML = `
       <img src="${g.thumb}" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
