@@ -21,7 +21,9 @@ const GAMES_2 = [
     { "id": 2053, "title": "Penalty Shooters 2", "rating": 4.3, "plays": 83000, "category": "Arcade", "thumb": "images/Arcade/PenaltyShooters2.png", "iframe": "https://games.crazygames.com/en_US/penalty-shooters-2/index.html" },
     { "id": 2054, "title": "Archery World Tour", "rating": 4.2, "plays": 57000, "category": "Arcade", "thumb": "images/Arcade/ArcheryWorldTour.png", "iframe": "https://games.crazygames.com/en_US/archery-world-tour/index.html" },
     { "id": 2031, "title": "Gold Miner", "rating": 4.3, "plays": 97000, "category": "Arcade", "thumb": "images/Arcade/GoldMiner.png", "iframe": "https://www.coolmathgames.com/0-gold-miner" },
-
+    { "id":13, "title" : "Flappy Bird",                "rating": 4.5,"plays" : 55230, "category": "Arcade",       "thumb": "images/FlappyBird.png",                  "iframe": "https://nebez.github.io/floppybird/" },
+    { "id":3,  "title" :"Geometry Dash",               "rating":4.5, "plays" :77000,  "category":"Arcade",        "thumb":"images/GeometryDash.png",                 "iframe":"https://geometrydash.io/" },
+ 
 
     { "id": 2002, "title": "Space Invaders", "rating": 4.5, "plays": 145000, "category": "Arcade", "thumb": "images/Arcade/SpaceInvaders.png", "iframe": "https://spaceinvaders.cc/" },
     { "id": 2003, "title": "Frogger", "rating": 4.4, "plays": 98000, "category": "Arcade", "thumb": "images/Arcade/Frogger.png", "iframe": "https://games.crazygames.com/en_US/frogger-in-toy-town/index.html" },

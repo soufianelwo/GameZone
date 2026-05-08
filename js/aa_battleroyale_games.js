@@ -1,4 +1,5 @@
 const GAMES_3 = [
+    { "id":4,  "title" :"Zombs Royale",                "rating":4.5, "plays" :92000,  "category":"Battle Royale", "thumb":"images/ZombsRoyale.png",                  "iframe":"https://zombsroyale.io/" },
     { "id": 3054, "title": "Tank Trouble", "rating": 4.3, "plays": 97000, "category": "Battle Royale", "thumb": "images/BattleRoyale/TankTrouble.png", "iframe": "https://tanktrouble.com/" },
     { "id": 3055, "title": "Worms Zone", "rating": 4.4, "plays": 124000, "category": "Battle Royale", "thumb": "images/BattleRoyale/WormsZone.png", "iframe": "https://wormszone.io/" },
     { "id": 3056, "title": "Little Big Snake", "rating": 4.4, "plays": 113000, "category": "Battle Royale", "thumb": "images/BattleRoyale/LittleBigSnake.png", "iframe": "https://littlebigsnake.com/" },
