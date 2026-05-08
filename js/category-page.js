@@ -19,7 +19,10 @@ function slugify(title) {
         '/js/aa_action_games.js',
         '/js/aa_arcade_games.js',
         '/js/aa_battleroyale_games.js',
+        '/js/aa_idle_games.js',
+        '/js/aa_multiplayer_games.js',
         '/js/aa_puzzle_games.js',
+        '/js/aa_sandbox_games.js',
         '/js/aa_sports_games.js',
         '/js/games.js',
     ];

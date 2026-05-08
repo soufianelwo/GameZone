@@ -1,4 +1,4 @@
-const GAMES_5 = [
+const GAMES_SPORTS = [
     { "id": 5001, "title": "Basketball Stars", "rating": 4.5, "plays": 148000, "category": "Sports", "thumb": "images/BasketballStars.png", "iframe": "https://games.crazygames.com/en_US/basketball-stars/index.html" },
     { "id": 5002, "title": "Penalty Shooters 2", "rating": 4.4, "plays": 132000, "category": "Sports", "thumb": "images/PenaltyShooters2.png", "iframe": "https://games.crazygames.com/en_US/penalty-shooters-2/index.html" },
     { "id": 5003, "title": "Penalty Kick Online", "rating": 4.4, "plays": 118000, "category": "Sports", "thumb": "images/PenaltyKickOnline.png", "iframe": "https://games.crazygames.com/en_US/penalty-kick-online/index.html" },
