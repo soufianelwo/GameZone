@@ -1,3 +1,11 @@
+function slugify(title) {
+    return title
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+
 (function () {
     const CATEGORY = document.body.dataset.category;
     if (!CATEGORY) {
@@ -113,7 +121,7 @@
                         '</div>' +
                     '</div>';
                 card.addEventListener('click', function () {
-                    window.location.href = '/game/?id=' + game.id;
+                    window.location.href = '/game/' + slugify(game.title);
                 });
                 grid.appendChild(card);
                 requestAnimationFrame(function () {

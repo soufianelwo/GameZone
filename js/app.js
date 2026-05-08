@@ -60,7 +60,13 @@ function getFilteredGames() {
     return matchQ && matchCat;
   });
 }
-
+function slugifygamehome(title) {
+    return title
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
 function populateCategories() {
   const cats = [...new Set(GAMES.map(g => g.category))].sort();
   cats.forEach(c => {
@@ -113,8 +119,7 @@ function renderGames() {
     `;
     // Open in new tab
     card.addEventListener('click', () => {
-      //window.open(`/game/?id=${game.id}`, '_blank');
-      window.location.href = `/game/?id=${game.id}`;
+        window.location.href = `/game/${slugifygamehome(game.title)}`;
     });
     grid.appendChild(card);
 

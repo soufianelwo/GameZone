@@ -1,7 +1,18 @@
 // Read game id from URL: /game/?id=5
-const params = new URLSearchParams(window.location.search);
-const gameId = parseInt(params.get('id'));
-const game = GAMES.find(g => g.id === gameId);
+//const params = new URLSearchParams(window.location.search);
+//const gameId = parseInt(params.get('id'));
+//const game = GAMES.find(g => g.id === gameId);
+
+function slugifygame(title) {
+    return title
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+const slug = window.location.pathname.replace('/game/', '').replace(/\//g, '');
+const game = GAMES.find(g => slugifygame(g.title) === slug);
+const gameId = game ? game.id : null;
 
 function getStars(rating) {
   let html = '';
@@ -38,7 +49,7 @@ function buildSidebarCards(containerId, games) {
   games.forEach(g => {
     const a = document.createElement('a');
     a.className = 'sb-card';
-    a.href = `/game/?id=${g.id}`;
+    a.href = `/game/${slugify(g.title)}`;
     a.title = g.title;
     a.innerHTML = `
       <img src="${g.thumb}" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
