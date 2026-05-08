@@ -7,14 +7,19 @@ export default {
         if (
             path.startsWith('/game/') &&
             path !== '/game/' &&
+            path !== '/game/index.html' &&
             !path.match(/\.[a-zA-Z0-9]+$/)
         ) {
-            return env.ASSETS.fetch(
-                new Request('https://assets.local/game/index.html', request)
+            const newRequest = new Request(
+                'https://assets.local/game/index.html',
+                {
+                    method: request.method,
+                    headers: request.headers
+                }
             );
+            return env.ASSETS.fetch(newRequest);
         }
 
-        // Tout le reste  comportement normal
         return env.ASSETS.fetch(request);
     }
 }
