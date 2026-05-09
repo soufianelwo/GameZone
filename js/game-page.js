@@ -48,11 +48,12 @@ function buildSidebarCards(containerId, games) {
   const container = document.getElementById(containerId);
   games.forEach(g => {
     const a = document.createElement('a');
+    const thumb = g.thumb.replace('/game', '');
     a.className = 'sb-card';
     a.href = `/game/${slugifygame(g.title)}`;
     a.title = g.title;
     a.innerHTML = `
-      <img src="${g.thumb.replace('/game', '') }" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
+      <img src="${thumb}" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
       <div class="sb-card-name">${g.title}</div>
     `;
     container.appendChild(a);
