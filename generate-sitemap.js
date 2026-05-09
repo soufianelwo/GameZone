@@ -4,7 +4,7 @@ const path = require('path');
 const rootDir = path.resolve(__dirname);
 const jsDir = path.join(rootDir, 'js');
 const sitemapPath = path.join(rootDir, 'sitemap.xml');
-const baseUrl = 'https://jeuxgratuis.com';
+const baseUrl = 'https://www.jeuxgratuis.com';
 
 function formatDate(date) {
   const iso = date.toISOString();
@@ -42,19 +42,31 @@ function getStaticPages() {
     .sort((a, b) => path.relative(rootDir, a).localeCompare(path.relative(rootDir, b), 'en', { numeric: true }));
 }
 
+function slugify(title) {
+    return title
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+
 function getGameIds() {
   const ids = new Set();
   if (!fs.existsSync(jsDir)) return ids;
 
   fs.readdirSync(jsDir)
-    .filter(file => file.endsWith('.js'))
+      //.filter(file => file.endsWith('.js'))
+      .filter(file => file.endsWith('.js') && file.startsWith('aa_'))
     .forEach(file => {
       const content = fs.readFileSync(path.join(jsDir, file), 'utf8');
-      const regex = /(?:"id"|id)\s*:\s*(\d+)/g;
+        //const regex = /(?:"id"|id)\s*:\s*(\d+)/g;
+        const regex = /"title"\s*:\s*"([^"]+)"/g;
       let match;
-      while ((match = regex.exec(content)) !== null) {
-        const id = Number(match[1]);
-        if (!Number.isNaN(id)) ids.add(id);
+        while ((match = regex.exec(content)) !== null) {
+            const title = match[1];
+            if (title) ids.add(slugify(title));
+        //const id = Number(match[1]);
+        //if (!Number.isNaN(id)) ids.add(id);
       }
     });
 
@@ -97,7 +109,7 @@ function createSitemap() {
   lines.push('  <!-- ==================== PAGES JEUX ==================== -->');
 
   for (const id of gameIds) {
-    const loc = `${baseUrl}/game.html?id=${id}`;
+    const loc = `${baseUrl}/game/${id}`;
     lines.push(buildUrlEntry(loc, today, 'monthly', '0.7'));
   }
 
