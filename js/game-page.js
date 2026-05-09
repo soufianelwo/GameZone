@@ -28,8 +28,8 @@ function formatPlays(n) {
 
 if (game) {
   // Meta
-  document.title = `${game.title} – GameZone`;
-  document.getElementById('page-title').textContent = `${game.title} – GameZone`;
+  document.title = `${game.title} – Jeux gratuits`;
+  document.getElementById('page-title').textContent = `${game.title} – Jeux gratuits`;
   document.getElementById('game-title-h1').textContent = game.title;
   document.getElementById('game-category-badge').textContent = game.category;
   document.getElementById('game-stars-bar').innerHTML = getStars(game.rating) + ` <span style="color:var(--text-muted);font-size:.8rem;margin-left:4px">${game.rating}</span>`;
