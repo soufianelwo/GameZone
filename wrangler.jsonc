@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "Jeux gratuits",
+  "name": "Jeuxgratuits",
   "compatibility_date": "2026-05-08",
   "main": "worker.js",
   "observability": {
