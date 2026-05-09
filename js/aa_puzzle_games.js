@@ -1,6 +1,6 @@
 const GAMES_PUZZLE = [
     { "id": 6002, "title": "Little Alchemy 2", "rating": 4.8, "plays": 58000, "category": "Puzzle", "thumb": "images/Puzzle/LittleAlchemy2.png", "iframe": "https://littlealchemy2.com/" },
-    { "id": 6003, "title": "Solitaire", "rating": 4.6, "plays": 195000, "category": "Puzzle", "thumb": "images/Puzzle/Solitaire.png", "iframe": "https://playpager.com/embed/solitaire/index.html" },
+    { "id": 6003, "title": "Jeu de carte solitaire", "rating": 4.6, "plays": 195000, "category": "Puzzle", "thumb": "images/Puzzle/Solitaire.png", "iframe": "https://playpager.com/embed/solitaire/index.html" },
     { "id": 6004, "title": "Lights Off", "rating": 4.0, "plays": 34000, "category": "Puzzle", "thumb": "images/Puzzle/LightsOff.png", "iframe": "https://www.mathsisfun.com/games/lightsout.html" },
     { "id": 6005, "title": "Simon Says", "rating": 4.1, "plays": 43000, "category": "Puzzle", "thumb": "images/Puzzle/SimonSays.png", "iframe": "https://www.mathsisfun.com/games/simon-says.html" },
     { "id": 6006, "title": "Hexanaut.io", "rating": 4.3, "plays": 57000, "category": "Puzzle", "thumb": "images/Puzzle/Hexanaut.png", "iframe": "https://hexanaut.io/" },
