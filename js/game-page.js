@@ -53,7 +53,7 @@ function buildSidebarCards(containerId, games) {
     a.href = `/game/${slugifygame(g.title)}`;
     a.title = g.title;
     a.innerHTML = `
-      <img src="${thumb}" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
+      <img src="/${thumb}" alt="${g.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
       <div class="sb-card-name">${g.title}</div>
     `;
     container.appendChild(a);
