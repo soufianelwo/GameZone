@@ -10,7 +10,7 @@ function slugifygame(title) {
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
 }
-const slug = window.location.pathname.replace('/game/', '').replace(/\//g, '');
+const slug = window.location.pathname.replace('/en/game/', '').replace(/\//g, '');
 const game = GAMES.find(g => slugifygame(g.title) === slug);
 const gameId = game ? game.id : null;
 
