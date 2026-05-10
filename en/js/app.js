@@ -25,6 +25,19 @@ document.addEventListener('DOMContentLoaded', function () {
         a.textContent = cat.name;
         headerNav.appendChild(a);
     });
+    const currentLang = window.location.pathname.startsWith('/en') ? 'en' : 'fr';
+    // Switcher
+    const frPath = window.location.pathname.replace(/^\/en/, '') || '/';
+    const enPath = '/en' + (window.location.pathname.startsWith('/en') ? window.location.pathname.replace('/en', '') : window.location.pathname);
+
+    const langSwitcher = document.createElement('div');
+    langSwitcher.className = 'lang-switcher';
+    langSwitcher.innerHTML = `
+    <a href="${frPath}" 
+       class="lang-btn ${currentLang === 'fr' ? 'active' : ''}">🇫🇷 FR</a>
+    <a href="${enPath}" 
+       class="lang-btn ${currentLang === 'en' ? 'active' : ''}">🇬🇧 EN</a>`;
+    headerNav.appendChild(langSwitcher);
 });
 // --- State ---
 let currentPage = 1;
