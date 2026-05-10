@@ -128,7 +128,7 @@ function slugify(title) {
                 card.innerHTML =
                     '<div class="card-thumb">' +
                         '<img src="'+'/'+game.thumb+'" alt="' + game.title + '" loading="lazy" onerror="this.src=\'../images/placeholder.svg\'">' +
-                        '<div class="card-overlay"><button class="play-btn">▶ Jouer</button></div>' +
+                        '<div class="card-overlay"><button class="play-btn">▶ Play</button></div>' +
                         '<span class="card-category">' + game.category + '</span>' +
                     '</div>' +
                     '<div class="card-info">' +

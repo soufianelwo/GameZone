@@ -118,7 +118,7 @@ function renderGames() {
       <div class="card-thumb">
         <img src="/${game.thumb}" alt="${game.title}" loading="lazy" onerror="this.src='/images/placeholder.svg'">
         <div class="card-overlay">
-          <button class="play-btn" aria-label="Jouer à ${game.title}">▶ Jouer</button>
+          <button class="play-btn" aria-label="Jouer à ${game.title}">▶ Play</button>
         </div>
         <span class="card-category">${game.category}</span>
       </div>
