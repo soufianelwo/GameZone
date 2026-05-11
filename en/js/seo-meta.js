@@ -1444,6 +1444,247 @@ const SEO_GAMES_IDLE = {
         "h1": "Cookie Clicker – Le Clicker Idle Original Gratuit",
         "allllllll": "Clique sur le grand cookie pour produire des cookies. Achète des bâtiments (curseurs, grands-mères, fermes...) pour automatiser la production. Débloque des améliorations pour augmenter exponentiellement ta production.",
         "Instructions": "Click the big cookie to produce cookies. Buy buildings (cursors, grandmas, farms...) to automate production. Unlock upgrades to exponentially increase your output."
+    },
+
+    "4033": {
+        "title": "Jouer à Goodgame Empire gratuitement – Jeux gratuits",
+        "description": "Construis ton empire médiéval, forme des alliances et conquiers de nouveaux territoires dans Goodgame Empire, le jeu de stratégie gratuit sur Jeux gratuits.",
+        "description_eng": "Build your medieval empire, forge alliances and conquer new territories in Goodgame Empire, the free strategy game on Jeux gratuits.",
+        "h1": "Goodgame Empire – Jeu de Stratégie Médiéval Gratuit",
+        "Instructions": "Construis des bâtiments pour produire des ressources. Recrute des soldats et entraîne ton armée. Attaque d'autres joueurs ou forme des alliances pour dominer la carte.",
+        "Instructions_eng": "Build structures to produce resources. Recruit soldiers and train your army. Attack other players or form alliances to dominate the map."
+    },
+    "4034": {
+        "title": "Jouer à Goodgame Big Farm gratuitement – Jeux gratuits",
+        "description": "Plante des cultures, élève des animaux et développe ta ferme dans Goodgame Big Farm, le simulateur agricole multijoueur gratuit sur Jeux gratuits.",
+        "description_eng": "Plant crops, raise animals and grow your farm in Goodgame Big Farm, the free multiplayer farming simulator on Jeux gratuits.",
+        "h1": "Goodgame Big Farm – Simulateur de Ferme Gratuit",
+        "Instructions": "Plante et récolte tes cultures pour gagner des pièces. Construis de nouveaux bâtiments pour agrandir ta ferme. Vends tes produits au marché et coopère avec d'autres joueurs.",
+        "Instructions_eng": "Plant and harvest your crops to earn coins. Build new structures to expand your farm. Sell your goods at the market and cooperate with other players."
+    },
+    "4035": {
+        "title": "Jouer à Forge of Empires gratuitement – Jeux gratuits",
+        "description": "Fais évoluer ta civilisation de l'âge de pierre jusqu'à l'ère moderne dans Forge of Empires, le jeu de stratégie et construction gratuit sur Jeux gratuits.",
+        "description_eng": "Evolve your civilization from the Stone Age to the modern era in Forge of Empires, the free strategy and city-building game on Jeux gratuits.",
+        "h1": "Forge of Empires – Jeu de Civilisation Gratuit",
+        "Instructions": "Construis ta ville en plaçant des bâtiments sur une grille hexagonale. Recherche de nouvelles technologies pour progresser dans les époques. Combats sur la carte du monde pour étendre ton territoire.",
+        "Instructions_eng": "Build your city by placing buildings on a hexagonal grid. Research new technologies to advance through the ages. Fight on the world map to expand your territory."
+    },
+    "4036": {
+        "title": "Jouer à Legends of Honor gratuitement – Jeux gratuits",
+        "description": "Construis un château puissant, entraîne ton armée et affronte d'autres joueurs dans Legends of Honor, le jeu de guerre médiéval gratuit sur Jeux gratuits.",
+        "description_eng": "Build a powerful castle, train your army and fight other players in Legends of Honor, the free medieval war game on Jeux gratuits.",
+        "h1": "Legends of Honor – Jeu de Guerre Médiéval Gratuit",
+        "Instructions": "Fortifie ton château avec des murs et des tours de défense. Entraîne différents types de soldats pour composer ton armée. Lance des attaques sur d'autres royaumes pour piller leurs ressources.",
+        "Instructions_eng": "Fortify your castle with walls and defense towers. Train different soldier types to compose your army. Launch attacks on other kingdoms to plunder their resources."
+    },
+    "4037": {
+        "title": "Jouer à Food Empire Inc gratuitement – Jeux gratuits",
+        "description": "Gère une ferme agro-alimentaire et deviens millionnaire dans Food Empire Inc, le jeu de tycoon agricole idle gratuit sur Jeux gratuits.",
+        "description_eng": "Manage a food farm and become a millionaire in Food Empire Inc, the free idle farming tycoon game on Jeux gratuits.",
+        "h1": "Food Empire Inc – Tycoon Agricole Idle Gratuit",
+        "Instructions": "Cultive différentes cultures pour générer des revenus. Embauche des managers pour automatiser ta production. Investis tes profits pour agrandir ton empire alimentaire.",
+        "Instructions_eng": "Grow different crops to generate income. Hire managers to automate your production. Invest your profits to expand your food empire."
+    },
+    "4038": {
+        "title": "Jouer à Idle Farming Business gratuitement – Jeux gratuits",
+        "description": "Lance ta ferme, automatise ta récolte et attire des investisseurs dans Idle Farming Business, le jeu de ferme idle gratuit sur Jeux gratuits.",
+        "description_eng": "Start your farm, automate your harvest and attract investors in Idle Farming Business, the free idle farm game on Jeux gratuits.",
+        "h1": "Idle Farming Business – Ferme Idle Gratuite",
+        "Instructions": "Achète des parcelles de terre et plante tes premières cultures. Améliore tes cultures pour accélérer la production. Débloque de nouvelles terres et attire des investisseurs pour multiplier tes gains.",
+        "Instructions_eng": "Buy land plots and plant your first crops. Upgrade your crops to speed up production. Unlock new land and attract investors to multiply your earnings."
+    },
+    "4039": {
+        "title": "Jouer à Idle Farm gratuitement – Jeux gratuits",
+        "description": "Construis ta ferme idéale et regarde tes cultures pousser automatiquement dans Idle Farm, le jeu de ferme clicker gratuit sur Jeux gratuits.",
+        "description_eng": "Build your ideal farm and watch your crops grow automatically in Idle Farm, the free clicker farm game on Jeux gratuits.",
+        "h1": "Idle Farm – Jeu de Ferme Clicker Gratuit",
+        "Instructions": "Plante des graines et récolte tes cultures en cliquant. Améliore ton équipement pour augmenter la production automatique. Débloque de nouveaux animaux et bâtiments pour diversifier ta ferme.",
+        "Instructions_eng": "Plant seeds and harvest crops by clicking. Upgrade your equipment to increase automatic production. Unlock new animals and buildings to diversify your farm."
+    },
+    "4040": {
+        "title": "Jouer à Idle Mining Empire gratuitement – Jeux gratuits",
+        "description": "Creuse, extrais des minerais et bâtis ton empire minier dans Idle Mining Empire, le jeu de minage tycoon idle gratuit sur Jeux gratuits.",
+        "description_eng": "Dig, extract ores and build your mining empire in Idle Mining Empire, the free idle mining tycoon game on Jeux gratuits.",
+        "h1": "Idle Mining Empire – Tycoon Minier Idle Gratuit",
+        "Instructions": "Engage des mineurs pour extraire automatiquement des ressources. Améliore tes foreuses pour atteindre des couches plus profondes. Gère ton équipe et optimise ta chaîne de production pour maximiser les profits.",
+        "Instructions_eng": "Hire miners to automatically extract resources. Upgrade your drills to reach deeper layers. Manage your team and optimize your production chain to maximize profits."
+    },
+    "4041": {
+        "title": "Jouer à Tavern Master gratuitement – Jeux gratuits",
+        "description": "Gère ta propre taverne médiévale, sers des clients et agrandis ton établissement dans Tavern Master, le jeu de gestion gratuit sur Jeux gratuits.",
+        "description_eng": "Manage your own medieval tavern, serve customers and expand your establishment in Tavern Master, the free management game on Jeux gratuits.",
+        "h1": "Tavern Master – Jeu de Gestion de Taverne Gratuit",
+        "Instructions": "Embauche des serveurs et cuisiniers pour satisfaire tes clients. Ajoute de nouvelles tables et décorations pour accueillir plus de monde. Gère tes stocks de nourriture et de boissons pour ne jamais manquer de rien.",
+        "Instructions_eng": "Hire servers and cooks to satisfy your customers. Add new tables and decorations to welcome more guests. Manage your food and drink stocks to never run out."
+    },
+    "4042": {
+        "title": "Jouer à Farm Frenzy gratuitement – Jeux gratuits",
+        "description": "Nourris tes animaux, collecte leurs produits et vends-les au marché dans Farm Frenzy, le jeu de ferme frénétique gratuit sur Jeux gratuits.",
+        "description_eng": "Feed your animals, collect their products and sell them at the market in Farm Frenzy, the free frantic farm game on Jeux gratuits.",
+        "h1": "Farm Frenzy – Jeu de Ferme Frénétique Gratuit",
+        "Instructions": "Nourris tes animaux régulièrement pour qu'ils produisent des ressources. Collecte les produits et transforme-les en usine. Vends ta marchandise avant que l'ours ne débarque sur ta ferme !",
+        "Instructions_eng": "Feed your animals regularly so they produce resources. Collect products and process them in the factory. Sell your goods before the bear shows up on your farm!"
+    },
+    "4043": {
+        "title": "Jouer à My Farm gratuitement – Jeux gratuits",
+        "description": "Crée et gère ta propre ferme, achète des animaux et cultive tes champs dans My Farm, le jeu de simulation agricole gratuit sur Jeux gratuits.",
+        "description_eng": "Create and manage your own farm, buy animals and cultivate your fields in My Farm, the free farming simulation game on Jeux gratuits.",
+        "h1": "My Farm – Simulation Agricole Gratuite",
+        "Instructions": "Achète des graines et plante-les dans tes champs. Acquiers des animaux et prends soin d'eux chaque jour. Vends tes récoltes et produits animaux pour financer l'agrandissement de ta ferme.",
+        "Instructions_eng": "Buy seeds and plant them in your fields. Acquire animals and take care of them every day. Sell your harvests and animal products to fund your farm's expansion."
+    },
+    "4044": {
+        "title": "Jouer à Jungle Farm gratuitement – Jeux gratuits",
+        "description": "Transforme une côte sauvage en une ferme prospère dans Jungle Farm, le jeu de ferme tropicale gratuit sur Jeux gratuits.",
+        "description_eng": "Transform a wild coast into a prosperous farm in Jungle Farm, the free tropical farm game on Jeux gratuits.",
+        "h1": "Jungle Farm – Ferme Tropicale Gratuite",
+        "Instructions": "Défriche la jungle pour libérer de nouvelles zones cultivables. Plante des cultures exotiques adaptées au climat tropical. Construis des bâtiments de transformation pour valoriser tes récoltes.",
+        "Instructions_eng": "Clear the jungle to free up new cultivable areas. Plant exotic crops suited to the tropical climate. Build processing buildings to add value to your harvests."
+    },
+    "4045": {
+        "title": "Jouer à Dinosaur Farm gratuitement – Jeux gratuits",
+        "description": "Transforme un terrain ordinaire en un parc de dinosaures dans Dinosaur Farm, le jeu de ferme jurassique gratuit sur Jeux gratuits.",
+        "description_eng": "Transform ordinary land into a dinosaur park in Dinosaur Farm, the free Jurassic farm game on Jeux gratuits.",
+        "h1": "Dinosaur Farm – Ferme de Dinosaures Gratuite",
+        "Instructions": "Achète tes premiers œufs de dinosaures et fais-les éclore. Construis des enclos adaptés à chaque espèce de dinosaure. Développe ton parc pour attirer des visiteurs et générer des revenus.",
+        "Instructions_eng": "Buy your first dinosaur eggs and hatch them. Build enclosures suited to each dinosaur species. Develop your park to attract visitors and generate income."
+    },
+    "4046": {
+        "title": "Jouer à Horse Farm gratuitement – Jeux gratuits",
+        "description": "Élève des chevaux, entraîne-les et participe à des courses dans Horse Farm, le jeu d'élevage équin gratuit sur Jeux gratuits.",
+        "description_eng": "Breed horses, train them and participate in races in Horse Farm, the free horse breeding game on Jeux gratuits.",
+        "h1": "Horse Farm – Jeu d'Élevage de Chevaux Gratuit",
+        "Instructions": "Construis des écuries pour accueillir tes chevaux. Nourris et entraîne tes chevaux chaque jour pour améliorer leurs performances. Inscris tes meilleurs chevaux à des courses pour gagner des récompenses.",
+        "Instructions_eng": "Build stables to house your horses. Feed and train your horses daily to improve their performance. Enter your best horses in races to win rewards."
+    },
+    "4047": {
+        "title": "Jouer à Farm Simulator gratuitement – Jeux gratuits",
+        "description": "Cultive tes champs, gère tes cultures et vends tes récoltes dans Farm Simulator, le jeu de simulation de ferme gratuit sur Jeux gratuits.",
+        "description_eng": "Cultivate your fields, manage your crops and sell your harvests in Farm Simulator, the free farm simulation game on Jeux gratuits.",
+        "h1": "Farm Simulator – Simulation de Ferme Gratuite",
+        "Instructions": "Prépare tes champs et sème différentes variétés de cultures. Utilise tes machines agricoles pour optimiser les récoltes. Vends ta production sur le marché au meilleur prix.",
+        "Instructions_eng": "Prepare your fields and sow different crop varieties. Use your farm machinery to optimize harvests. Sell your production on the market at the best price."
+    },
+    "4048": {
+        "title": "Jouer à Hay Day Pop gratuitement – Jeux gratuits",
+        "description": "Fais éclater des cases colorées pour récolter tes cultures dans Hay Day Pop, le jeu de puzzle agricole gratuit sur Jeux gratuits.",
+        "description_eng": "Pop colored tiles to harvest your crops in Hay Day Pop, the free farming puzzle game on Jeux gratuits.",
+        "h1": "Hay Day Pop – Puzzle Agricole Gratuit",
+        "Instructions": "Fais éclater des groupes de cases de même couleur pour récolter des cultures. Utilise des power-ups pour effacer des zones entières. Complète les objectifs de chaque niveau pour débloquer de nouvelles zones de ta ferme.",
+        "Instructions_eng": "Pop groups of same-colored tiles to harvest crops. Use power-ups to clear entire areas. Complete each level's objectives to unlock new areas of your farm."
+    },
+    "4049": {
+        "title": "Jouer à Viking Village gratuitement – Jeux gratuits",
+        "description": "Construis un village viking, entraîne tes guerriers et pars à la conquête dans Viking Village, le jeu de stratégie nordique gratuit sur Jeux gratuits.",
+        "description_eng": "Build a Viking village, train your warriors and go on conquest in Viking Village, the free Nordic strategy game on Jeux gratuits.",
+        "h1": "Viking Village – Jeu de Stratégie Viking Gratuit",
+        "Instructions": "Collecte des matériaux pour construire les bâtiments de ton village. Recrute et entraîne des guerriers vikings pour ton armée. Envoie tes troupes en raid pour piller d'autres villages et rapporter des ressources.",
+        "Instructions_eng": "Collect materials to build your village's structures. Recruit and train Viking warriors for your army. Send your troops on raids to plunder other villages and bring back resources."
+    },
+    "4050": {
+        "title": "Jouer à Age of Empires Online gratuitement – Jeux gratuits",
+        "description": "Construis ta civilisation, récolte des ressources et mène tes armées à la victoire dans Age of Empires Online, le jeu de stratégie en temps réel gratuit sur Jeux gratuits.",
+        "description_eng": "Build your civilization, harvest resources and lead your armies to victory in Age of Empires Online, the free real-time strategy game on Jeux gratuits.",
+        "h1": "Age of Empires Online – Stratégie en Temps Réel Gratuite",
+        "Instructions": "Construis des bâtiments pour produire ressources et unités militaires. Avance dans les âges en recherchant de nouvelles technologies. Attaque les villages ennemis et défends le tien pour dominer la carte.",
+        "Instructions_eng": "Build structures to produce resources and military units. Advance through the ages by researching new technologies. Attack enemy villages and defend your own to dominate the map."
+    },
+    "4051": {
+        "title": "Jouer à Elvenar gratuitement – Jeux gratuits",
+        "description": "Construis une cité fantastique peuplée d'elfes ou d'humains dans Elvenar, le jeu de city-builder fantaisie gratuit sur Jeux gratuits.",
+        "description_eng": "Build a fantastic city populated by elves or humans in Elvenar, the free fantasy city-builder game on Jeux gratuits.",
+        "h1": "Elvenar – City-Builder Fantaisie Gratuit",
+        "Instructions": "Choisis entre les elfes et les humains pour commencer ton aventure. Construis des bâtiments résidentiels et de production pour faire prospérer ta cité. Explore la carte du monde et négocie avec les peuples voisins.",
+        "Instructions_eng": "Choose between elves and humans to start your adventure. Build residential and production buildings to make your city prosper. Explore the world map and negotiate with neighboring peoples."
+    },
+    "4052": {
+        "title": "Jouer à Tribal Wars gratuitement – Jeux gratuits",
+        "description": "Développe ton village, forge des alliances et pars en guerre contre d'autres tribus dans Tribal Wars, le jeu de stratégie médiéval multijoueur gratuit sur Jeux gratuits.",
+        "description_eng": "Develop your village, forge alliances and go to war against other tribes in Tribal Wars, the free medieval multiplayer strategy game on Jeux gratuits.",
+        "h1": "Tribal Wars – Jeu de Guerre Tribale Gratuit",
+        "Instructions": "Construis et améliore les bâtiments de ton village pour produire des ressources. Entraîne différentes unités militaires pour composer ton armée. Rejoins une tribu ou crée la tienne pour conquérir des villages ennemis.",
+        "Instructions_eng": "Build and upgrade your village's buildings to produce resources. Train different military units to compose your army. Join a tribe or create your own to conquer enemy villages."
+    },
+    "4053": {
+        "title": "Jouer à Civilization Hex gratuitement – Jeux gratuits",
+        "description": "Guide ta civilisation à travers les âges sur une carte hexagonale dans Civilization Hex, le jeu de stratégie de civilisation gratuit sur Jeux gratuits.",
+        "description_eng": "Guide your civilization through the ages on a hexagonal map in Civilization Hex, the free civilization strategy game on Jeux gratuits.",
+        "h1": "Civilization Hex – Stratégie de Civilisation Gratuite",
+        "Instructions": "Explore la carte hexagonale et fonde de nouvelles villes. Choisis diplomatie ou guerre pour étendre ton influence. Recherche des technologies et bâtis des merveilles pour dominer la partie.",
+        "Instructions_eng": "Explore the hexagonal map and found new cities. Choose diplomacy or war to extend your influence. Research technologies and build wonders to dominate the game."
+    },
+    "4054": {
+        "title": "Jouer à Medieval Wars gratuitement – Jeux gratuits",
+        "description": "Commande tes armées médiévales et conquiers des territoires dans Medieval Wars, le jeu de stratégie au tour par tour gratuit sur Jeux gratuits.",
+        "description_eng": "Command your medieval armies and conquer territories in Medieval Wars, the free turn-based strategy game on Jeux gratuits.",
+        "h1": "Medieval Wars – Jeu de Stratégie Médiévale Gratuit",
+        "Instructions": "Déplace tes unités sur la carte au tour par tour. Utilise le terrain à ton avantage pour encercler les ennemis. Capte des ressources et des forts pour renforcer ton armée.",
+        "Instructions_eng": "Move your units across the map turn by turn. Use the terrain to your advantage to surround enemies. Capture resources and forts to reinforce your army."
+    },
+    "4055": {
+        "title": "Jouer à Castle Wars gratuitement – Jeux gratuits",
+        "description": "Défends ton château avec des tours et des archers contre des vagues d'ennemis dans Castle Wars, le jeu de défense de château gratuit sur Jeux gratuits.",
+        "description_eng": "Defend your castle with towers and archers against waves of enemies in Castle Wars, the free castle defense game on Jeux gratuits.",
+        "h1": "Castle Wars – Jeu de Défense de Château Gratuit",
+        "Instructions": "Place des tours de défense stratégiquement sur le champ de bataille. Améliore tes structures entre chaque vague d'ennemis. Utilise des sorts et des pouvoirs spéciaux pour repousser les attaques les plus intenses.",
+        "Instructions_eng": "Strategically place defense towers on the battlefield. Upgrade your structures between each wave of enemies. Use spells and special powers to repel the most intense attacks."
+    },
+    "4056": {
+        "title": "Jouer à Kingdom Rush gratuitement – Jeux gratuits",
+        "description": "Protège ton royaume avec des tours magiques et des soldats héroïques dans Kingdom Rush, le jeu de tower defense médiéval gratuit sur Jeux gratuits.",
+        "description_eng": "Protect your kingdom with magic towers and heroic soldiers in Kingdom Rush, the free medieval tower defense game on Jeux gratuits.",
+        "h1": "Kingdom Rush – Tower Defense Médiéval Gratuit",
+        "Instructions": "Place des tours d'archer, de mage, de canonnier et de baraquement le long du chemin. Améliore tes tours pour débloquer des capacités spéciales dévastatrices. Utilise des renforts et des pouvoirs de héros pour surpasser les vagues les plus difficiles.",
+        "Instructions_eng": "Place archer, mage, artillery and barracks towers along the path. Upgrade your towers to unlock devastating special abilities. Use reinforcements and hero powers to overcome the most difficult waves."
+    },
+    "4057": {
+        "title": "Jouer à Bloons Tower Defense 5 gratuitement – Jeux gratuits",
+        "description": "Empêche les ballons envahisseurs de traverser ta carte avec des singes défenseurs dans Bloons TD 5, le jeu de tower defense gratuit sur Jeux gratuits.",
+        "description_eng": "Stop the invading bloons from crossing your map with monkey defenders in Bloons TD 5, the free tower defense game on Jeux gratuits.",
+        "h1": "Bloons Tower Defense 5 – Tower Defense Gratuit",
+        "Instructions": "Place des singes défenseurs le long du chemin des ballons. Améliore chaque singe avec deux branches de spécialisation distinctes. Utilise des pouvoirs spéciaux et des agents pour surpasser les rounds les plus difficiles.",
+        "Instructions_eng": "Place monkey defenders along the bloons' path. Upgrade each monkey with two distinct specialization branches. Use special powers and agents to overcome the most difficult rounds."
+    },
+    "4058": {
+        "title": "Jouer à Conq.io gratuitement – Jeux gratuits",
+        "description": "Conquiers des territoires et domine la carte du monde contre d'autres joueurs dans Conq.io, le jeu de conquête stratégique multijoueur gratuit sur Jeux gratuits.",
+        "description_eng": "Conquer territories and dominate the world map against other players in Conq.io, the free multiplayer strategic conquest game on Jeux gratuits.",
+        "h1": "Conq.io – Conquête Stratégique Multijoueur Gratuite",
+        "Instructions": "Déplace tes troupes sur les cases adjacentes pour les conquérir. Produis de nouvelles unités dans tes territoires occupés. Élimines tous les adversaires ou atteins le score de domination requis pour gagner.",
+        "Instructions_eng": "Move your troops to adjacent tiles to conquer them. Produce new units in your occupied territories. Eliminate all opponents or reach the required domination score to win."
+    },
+    "4059": {
+        "title": "Jouer à Stick War II Order Empire gratuitement – Jeux gratuits",
+        "description": "Commande ton armée de stickmen et conquiers l'empire dans Stick War II, le jeu de stratégie et action gratuit sur Jeux gratuits.",
+        "description_eng": "Command your stickman army and conquer the empire in Stick War II, the free strategy and action game on Jeux gratuits.",
+        "h1": "Stick War II Order Empire – Stratégie Stickman Gratuite",
+        "Instructions": "Mine de l'or pour entraîner de nouvelles unités de combat. Contrôle directement chaque unité ou laisse-les combattre en automatique. Détruisis la statue ennemie pour remporter la bataille.",
+        "Instructions_eng": "Mine gold to train new combat units. Directly control each unit or let them fight automatically. Destroy the enemy statue to win the battle."
+    },
+    "4060": {
+        "title": "Jouer à Farmville Classic gratuitement – Jeux gratuits",
+        "description": "Cultive tes champs, élève des animaux et décore ta ferme dans Farmville Classic, le jeu de ferme social gratuit sur Jeux gratuits.",
+        "description_eng": "Cultivate your fields, raise animals and decorate your farm in Farmville Classic, the free social farm game on Jeux gratuits.",
+        "h1": "Farmville Classic – Jeu de Ferme Social Gratuit",
+        "Instructions": "Laboure tes champs et plante différentes cultures à récolter dans les temps impartis. Achète des animaux et prends-en soin pour obtenir des produits spéciaux. Décore ta ferme et invite tes amis pour débloquer des bonus exclusifs.",
+        "Instructions_eng": "Plow your fields and plant different crops to harvest within the allotted time. Buy animals and care for them to obtain special products. Decorate your farm and invite friends to unlock exclusive bonuses."
+    },
+    "4061": {
+        "title": "Jouer à Stardew Valley Online gratuitement – Jeux gratuits",
+        "description": "Cultive ta ferme, explore des mines et noue des liens avec les villageois dans Stardew Valley Online, le RPG agricole gratuit sur Jeux gratuits.",
+        "description_eng": "Cultivate your farm, explore mines and build bonds with villagers in Stardew Valley Online, the free farming RPG on Jeux gratuits.",
+        "h1": "Stardew Valley Online – RPG Agricole Gratuit",
+        "Instructions": "Plante et récolte différentes cultures selon les saisons. Explore les mines pour collecter des minerais et combattre des monstres. Interagis avec les villageois pour débloquer des quêtes et des objets rares.",
+        "Instructions_eng": "Plant and harvest different crops according to the seasons. Explore mines to collect ores and fight monsters. Interact with villagers to unlock quests and rare items."
+    },
+    "4062": {
+        "title": "Jouer à Territorial.io gratuitement – Jeux gratuits",
+        "description": "Étends ton territoire et domine la carte contre des joueurs du monde entier dans Territorial.io, le jeu de conquête multijoueur gratuit sur Jeux gratuits.",
+        "description_eng": "Expand your territory and dominate the map against players from around the world in Territorial.io, the free multiplayer conquest game on Jeux gratuits.",
+        "h1": "Territorial.io – Jeu de Conquête Multijoueur Gratuit",
+        "Instructions": "Clique pour lancer des attaques sur les territoires adjacents. Accumule des troupes avant d'attaquer pour maximiser tes chances de succès. Gère l'équilibre entre expansion offensive et défense de tes frontières.",
+        "Instructions_eng": "Click to launch attacks on adjacent territories. Accumulate troops before attacking to maximize your chances of success. Manage the balance between offensive expansion and defending your borders."
     }
 };
 
