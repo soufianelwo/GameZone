@@ -1679,8 +1679,10 @@ const SEO_GAMES = {
         const game = GAMES.find(g => slugifyg(g.title) === slug);
         if (!game) return;
 
-        const title = `Jouer à ${game.title} gratuitement – Jeux gratuits`;
-        const description = `Joue à ${game.title} gratuitement en ligne sur Jeux gratuits. Jeu ${game.category} sans téléchargement, accessible sur PC et mobile.`;
+        const seo_game = SEO_GAMES[game.id.toString()];
+
+        const title = seo_game.title; //`Jouer à ${game.title} gratuitement – Jeux gratuits`;
+        const description = seo_game.description;// `Joue à ${game.title} gratuitement en ligne sur Jeux gratuits. Jeu ${game.category} sans téléchargement, accessible sur PC et mobile.`;
         const canonical = `/en/game/${slug}`;
         const image = `/${game.thumb}`;
 
@@ -1717,8 +1719,6 @@ const SEO_GAMES = {
         if (h1) h1.textContent = `${game.title} – Jeu ${game.category} Gratuit`;
         const p = document.getElementById('game-description');
         if (p) p.textContent = description;
-
-        const seo_game = SEO_GAMES[game.id.toString()];
 
         if (seo_game) {
             document.getElementById('game-title-h1').textContent = seo_game.h1;
