@@ -25,7 +25,7 @@ const SEO_CATEGORIES = {
   },
   "Idle": {
     "h1": "Jeux Idle Gratuits en Ligne",
-    "intro": "Détends-toi avec les meilleurs jeux Idle gratuits sur Jeux gratuits : Cookie Clicker, Clicker Heroes et bien d'autres. Des jeux relaxants et addictifs où ta progression continue même quand tu n'es pas là. Jouable directement dans ton navigateur."
+      "intro": "Détends-toi avec les meilleurs jeux Idle gratuits sur Jeux gratuits : Goodgame Big Farm, Forge of Empires,Goodgame Empire et bien d'autres. Des jeux relaxants et addictifs où ta progression continue même quand tu n'es pas là. Jouable directement dans ton navigateur."
   },
   "Sports": {
     "h1": "Jeux de Sport Gratuits en Ligne",
