@@ -1,0 +1,6 @@
+name = "gamezone"
+compatibility_date = "2026-05-08"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "."
